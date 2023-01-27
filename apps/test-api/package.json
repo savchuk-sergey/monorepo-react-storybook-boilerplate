@@ -1,0 +1,10 @@
+{
+  "name": "test-api",
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "scripts": {
+    "dev": "json-server --watch db.json --port 4000"
+  }
+}
